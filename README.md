@@ -28,4 +28,4 @@ Automate weather and astronomy alerts with an Agile/Scrum approach for continuou
 - Product Vision: automate useful alerts for astronomy enthusiasts  
 - Backlog and sprints managed with GitHub Issues & Project Board
 # SkyFlow-bot
-Automated weather + Astronomy notifications to telegram using Make
+Automated Weather + Astronomy notifications to telegram using Make
