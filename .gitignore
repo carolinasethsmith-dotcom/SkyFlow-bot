@@ -1,0 +1,46 @@
+########################################
+# SkyFlow-Bot — Custom Git Ignore
+########################################
+
+# --- API keys & secrets (NEVER commit) ---
+.env
+.env.local
+.env.*.local
+*.secret
+*.token
+config.json
+secrets.json
+
+# --- Make (Integromat) exports & temp files ---
+# exported scenario backups
+*.json.backup
+*.makebackup
+
+# scenario auto-exports (you only commit the final ones)
+exports/tmp/
+exports/temp/
+exports/*.autosave.json
+
+# --- Logs ---
+logs/
+*.log
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor temporary files ---
+*.swp
+*.swo
+*.tmp
+*.bak
+*.idea/
+.vscode/
+
+# --- Python (if I add utilities later) ---
+__pycache__/
+*.pyc
+
+# --- Node (if I add JS scripts later) ---
+node_modules/
+dist/
