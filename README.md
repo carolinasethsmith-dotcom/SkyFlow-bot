@@ -15,7 +15,8 @@ Automate weather and astronomy alerts with an Agile/Scrum approach for continuou
 
 **Current Status**  
 - Weather API tested and working  
-- Telegram notifications working  
+- Telegram notifications working
+- Weather & Astronomy Filters pendng
 - Full integration pending (blocked by astronomy API)
 
 **How to Use / Configure**  
